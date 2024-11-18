@@ -3,6 +3,7 @@ package com.example.camerax.components
 import androidx.camera.view.LifecycleCameraController
 import androidx.camera.view.PreviewView
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -18,7 +19,9 @@ fun CameraPreview(
     val lifecycleOwner = LocalLifecycleOwner.current
     Column (
         modifier = Modifier
-            .padding(130.dp),
+            .fillMaxSize()
+//            .padding(130.dp)
+        ,
     ){
         AndroidView(
             factory = {
