@@ -76,4 +76,10 @@ dependencies {
     implementation("androidx.camera:camera-lifecycle:1.4.0")
     implementation("androidx.camera:camera-video:1.4.0")
 
+    //// ML-KIT ////
+    implementation("com.google.mlkit:text-recognition:16.0.0")
+
+    //// ACCOMPANIST ////
+    implementation("com.google.accompanist:accompanist-permissions:0.31.6-rc")
+
 }
